@@ -13,13 +13,13 @@ $EM_CONF[$_EXTKEY] = [
     'dependencies' => 'extbase, fluid',
     'state' => 'stable',
     'author_company' => 'in2code GmbH',
-    'version' => '7.7.0',
+    'version' => '8.0.0-dev',
     'autoload' => [
         'psr-4' => ['In2code\\Migration\\' => 'Classes']
     ],
     'constraints' => [
         'depends' => [
-            'typo3' => '9.5.0-10.4.99'
+            'typo3' => '9.5.0-11.5.99'
         ],
         'conflicts' => [],
         'suggests' => [],
